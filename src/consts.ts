@@ -2,4 +2,4 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 export const SITE_TITLE = 'Mechveck';
-export const SITE_DESCRIPTION = 'AI tools, productivity software, and tech reviews';
+export const SITE_DESCRIPTION = 'Deep research reports powered by frontier AI';
