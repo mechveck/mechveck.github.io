@@ -2,4 +2,4 @@
 :HL["/rosary/_next/static/media/385c0eceff071084-s.p.6649861c.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/rosary/_next/static/media/466e772c7ca57446-s.p.bd0aa820.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/rosary/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"buildId":"1lw7ZYvTSqGlEBzQH4Q7X","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"pray","paramType":null,"paramKey":"pray","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"TPjGPRsxktES03w-kXP7X","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"pray","paramType":null,"paramKey":"pray","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
