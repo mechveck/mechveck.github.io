@@ -1,0 +1,106 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+---
+
+<Layout
+	title="Apps"
+	description="Web apps and tools built by Mechveck"
+	pubDate={new Date('January 14 2026')}
+>
+	<p>
+		A collection of web apps and tools we've built. All are free to use and work
+		on any device.
+	</p>
+
+	<div class="app-grid">
+		<a href="/rosary/" class="app-card">
+			<div class="app-icon">✟</div>
+			<div class="app-info">
+				<h3>Holy Rosary</h3>
+				<p>
+					A simple, beautiful app to pray the Holy Rosary. Includes all four
+					mystery sets with meditations, scripture verses, and fruits of the mystery.
+				</p>
+				<ul class="app-features">
+					<li>Visual rosary bead tracker</li>
+					<li>Swipe or keyboard navigation</li>
+					<li>Works offline (PWA)</li>
+					<li>Dark mode support</li>
+				</ul>
+			</div>
+		</a>
+	</div>
+</Layout>
+
+<style>
+	.app-grid {
+		display: grid;
+		gap: 1.5rem;
+		margin-top: 2rem;
+	}
+
+	.app-card {
+		display: flex;
+		gap: 1.5rem;
+		padding: 1.5rem;
+		border: 1px solid #e5e7eb;
+		border-radius: 12px;
+		text-decoration: none;
+		color: inherit;
+		transition: all 0.2s ease;
+	}
+
+	.app-card:hover {
+		border-color: var(--accent);
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+		transform: translateY(-2px);
+	}
+
+	.app-icon {
+		flex-shrink: 0;
+		width: 80px;
+		height: 80px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 2.5rem;
+		background: linear-gradient(135deg, #722F37 0%, #8B3A42 100%);
+		color: #FAF9F6;
+		border-radius: 16px;
+	}
+
+	.app-info h3 {
+		margin: 0 0 0.5rem 0;
+		font-size: 1.25rem;
+		color: var(--black);
+	}
+
+	.app-info p {
+		margin: 0 0 1rem 0;
+		color: #666;
+		line-height: 1.6;
+	}
+
+	.app-features {
+		margin: 0;
+		padding-left: 1.25rem;
+		color: #666;
+		font-size: 0.9rem;
+	}
+
+	.app-features li {
+		margin-bottom: 0.25rem;
+	}
+
+	@media (max-width: 600px) {
+		.app-card {
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+		}
+
+		.app-features {
+			text-align: left;
+		}
+	}
+</style>
